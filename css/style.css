@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:wght@800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+
+.promo1 {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    height: 76px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop_explore {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.The_Desk_Shelf_System {
+    background: url('../img/The\ Desk\ Shelf\ System.jpg') no-repeat center / cover;
+    height: 504px;
+}
+
+.The_Desk_Shelf_System_text {
+    padding-top: 188px;
+}
+
+.The_Desk_Shelf_System_text h1 {
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 46px;
+    text-align: center;
+    padding-bottom: 12px;
+
+}
+
+.text {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.8px;
+
+}
+
+.text2 {
+    padding-top: 28px;
+    opacity: 0.12;
+}
+
+.Design_Inspires_text {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 81px;
+}
+
+.Design_Inspires_text h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 58px;
+    text-align: center;
+    color: #000000;
+}
+
+.Design_Inspires_text1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+    padding-top: 23px;
+    padding-bottom: 26px;
+}
+
+.Design_Inspires_text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.Design_Inspires_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.Design_Inspires_item {
+    height: 440.53px;
+    width: 657.5px;
+}
+
+.Design_Inspires_item h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    padding-top: 48.47px;
+}
+
+.Design_Inspires_item p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 23px;
+    padding-bottom: 133.53px;
+}
+
+.Featured_Products {
+    padding-top: 249.53px;
+
+}
+
+.Featured_Products_text {
+    text-align: center;
+}
+
+.Featured_Products_text h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.Featured_Products_text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+    padding-top: 16px;
+    padding-bottom: 43.12px;
+}
+
+.Featured_Products_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 24.12px;
+}
+
+.Featured_Products_item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.7px;
+    color: #A0A0A0;
+}
+
+.Home_Office_Inspiration {
+    background: url('../img/Home\ Office\ Inspiration.jpg') no-repeat center / cover;
+    height: 504px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom:  116.14px;
+}
+
+.Home_Office_Inspiration_text h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+
+.learn_more {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #FFFFFF;
+
+}
+
+.Home_Office_Inspiration_text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+.Made_The_Hard_Way_text  {
+    text-align: center;
+    height: 126px;
+   
+}
+
+.Made_The_Hard_Way_text h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+   
+}
+
+.Made_The_Hard_Way_text p {
+    font-family: 'Roboto';
+    font-style: normal;
+ 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #A0A0A0;
+}
+.Made_The_Hard_Way img{
+    text-align: center;
+    width: 100%;
+    height: 592px;
+
+}
